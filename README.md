@@ -1,4 +1,3 @@
-<<<<<<< HEAD
 # hello-ember-cli
 
 This README outlines the details of collaborating on this Ember application.
@@ -49,6 +48,3 @@ Specify what it takes to deploy your app.
 * Development Browser Extensions
   * [ember inspector for chrome](https://chrome.google.com/webstore/detail/ember-inspector/bmdblncegkenkacieihfhpjfppoconhi)
   * [ember inspector for firefox](https://addons.mozilla.org/en-US/firefox/addon/ember-inspector/)
-=======
-# hello-emberCli
->>>>>>> 96e4deb8d6ed1e80b9f21f5b53d10ac394a8631e
