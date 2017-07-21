@@ -8,6 +8,11 @@ const Router = Ember.Router.extend({
 
 Router.map(function() {
   this.route('about');
+  this.route('parent', function() {
+    this.route('child');
+  });
+
+  this.route('parent.child-isolate', {path: 'parent/child-isolate'});
 });
 
 export default Router;
