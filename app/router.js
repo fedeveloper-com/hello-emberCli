@@ -11,8 +11,10 @@ Router.map(function() {
   this.route('parent', function() {
     this.route('child');
   });
-
   this.route('parent.child-isolate', {path: 'parent/child-isolate'});
+  this.route('todos', function() {
+    this.route('show', {path: '/:id'});
+  });
 });
 
 export default Router;

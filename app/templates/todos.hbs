@@ -1,0 +1,8 @@
+<h2>List of Todos</h2>
+<ul>
+    {{#each model as |todo| }}
+        <li>{{#link-to 'todos.show' todo}} {{ todo.description }} {{/link-to}} </li>
+    {{/each }}
+</ul>
+
+{{outlet}}
