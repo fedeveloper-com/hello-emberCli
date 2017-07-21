@@ -14,4 +14,13 @@
 
 {{ numClicks }} increments <button {{ action 'incrementClick' }}>Increment</button>
 
-{{outlet}}
+<hr>
+
+{{ link-to "Home" "application" }}
+{{ link-to "Home v2" "index" }}
+{{ link-to "About" "about" }}
+{{#link-to "about" }}
+    About v2
+{{/link-to }}
+
+{{ outlet }}
