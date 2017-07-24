@@ -10,6 +10,9 @@ export default Ember.Controller.extend({
         },
         incrementClick () {
             this.set('numClicks', this.get('numClicks') + 1 );
+        },
+        doAlert (message = 'Hello ma-da-fa-ka!') {
+            window.alert(message);
         }
     }
 });
