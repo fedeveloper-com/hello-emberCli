@@ -1,3 +1,5 @@
+<h1 style="text-align: center;">HELLO EMBER 2!</h1>
+
 {{!-- The following component displays Ember's default welcome message. --}}
 {{!--{{welcome-page}}--}}
 {{!-- Feel free to remove this! --}}
@@ -15,6 +17,7 @@
 {{ numClicks }} increments <button {{ action 'incrementClick' }}>Increment</button>
 
 <hr>
+<h1>Routers</h1>
 
 {{ link-to "Home" "application" }}
 {{ link-to "Home v2" "index" }}
@@ -25,6 +28,13 @@
 {{ link-to "Parent" "parent" }}
 {{ link-to "Todos" "todos" }}
 
-<hr>
-
 {{ outlet }}
+
+<hr>
+<h1>Components</h1>
+{{ x-xounter }}
+{{ x-xounter number = 30 }}
+{{#x-xounter }}
+    Some text
+    {{ x-xounter }}
+{{/x-xounter }}
